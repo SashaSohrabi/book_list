@@ -77,7 +77,7 @@ document.getElementById('book-form')
         // Instantiate UI
         const ui = new UI();
 
-        Validate
+        // Validate
         if (title === '' || author === '' || isbn === '') {
             // Error alert
             ui.showAlert('Please fill in all fields',
