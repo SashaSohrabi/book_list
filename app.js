@@ -98,16 +98,13 @@ document.getElementById('book-form')
 
 // Event Listener for delete
 document.getElementById('book-list')
-.addEventListener('click', function(e) {
+    .addEventListener('click', function (e) {
 
-    // Instantiate UI
-    const ui = new UI();
+        // Instantiate UI
+        const ui = new UI();
 
-    // Delete book
-    ui.deleteBook(e.target);
+        // Delete book
+        ui.deleteBook(e.target);
 
-    // Show message
-    ui.showAlert('Book removed!', 'success');
-
-    e.preventDefault();
-});
+        e.preventDefault();
+    });
